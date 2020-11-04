@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+}
+
+header > p {
+    padding: 3rem;
+}
+
+main {
+    margin-bottom: 25rem;
+}
+
+main > h1 {
+    padding-left: 2rem;
+}
+
+footer {
+    background-color: rgb(68, 67, 67);
+    color: white;
+}
+
+
+/*RE-USABLE CLASSES*/
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+.padding {
+    padding: 1rem;
+}
+
+.column {
+    flex-direction: column;
+}
