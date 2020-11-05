@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikaela A Andersson</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="travelsite" href="travel/travel.html">
     <script src="main.js"></script>
 </head>
 <body>
@@ -15,12 +16,23 @@
 
     <main>
         <div id="clickPictures()" class="container flex justify-center">
-            <img id="musicPicture" class="music padding" src="Images/music.jpg">
-            <img id="travelPicture" class="travel padding" src="Images/travel.jpg">
-        </div>
-        <div class="container flex justify-center">
-            <img id="mikaelaPicture" class="mikaela padding" src="Images/mikaela.jpg">
-            <img id="artPicture" class="art padding" src="Images/art.jpg">
+            <div class="relative">
+                <img id="musicPicture" class="padding" src="Images/music.jpg">
+                <p class="overlay-text">music</p>
+            </div>
+            <div class="relative">
+                <img id="travelPicture" class="padding" src="Images/travel.jpg">
+                <a href="travel/travel.html" class="overlay-text">travel</a>
+            </div>
+            <div class="container flex justify-center">
+                <div class="relative">
+                    <img id="mikaelaPicture" class="padding" src="Images/mikaela.jpg">
+                    <p class="overlay-text">mikaela</p>
+                </div>
+                <div class="relative">
+                    <img id="artPicture" class="padding" src="Images/art.jpg">
+                    <p class="overlay-text">art</p>
+                </div>
         </div>
     </main>
 

@@ -4,6 +4,7 @@ body {
     color: black;
     font-family: 'Courier New', Courier, monospace;
 }
+/* STRUCTURE */
 
 header {
     background-color: black;
@@ -16,23 +17,40 @@ main {
     padding-bottom: 2rem;
 }
 
+footer {
+    background-color: rgb(68, 67, 67);
+    color: white;
+}
+
 img {
     width: 20rem;
     height: auto;
-    
 }
+/* CLASSES */
 
 .container > img:hover {
     opacity: 50%;
 }
 
-a:hover {
-    opacity: 20%;
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
 }
 
-footer {
-    background-color: rgb(68, 67, 67);
-    color: white;
+.relative {
+    position: relative;
+}
+
+p:hover{
+    opacity: 0%;
+}
+
+a:hover {
+    opacity: 20%;
 }
 
 
