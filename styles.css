@@ -13,6 +13,21 @@ header {
     font-size: xx-large;
 }
 
+header p > a:link {
+    text-decoration: none;
+    color: white;
+}
+
+header p > a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+header p > a:hover {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+}
+
 main {
     padding-bottom: 2rem;
 }
@@ -27,6 +42,7 @@ img {
     height: auto;
 }
 /* CLASSES */
+
 
 .container > img:hover {
     opacity: 50%;

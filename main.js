@@ -26,13 +26,3 @@
 
 window.onload = main;
 
-function main() {
-    clickPictures();
-}
-
-function clickPictures() {
-    const musicPicture = document.getElementById('musicPicture');
-    musicPicture.onclick = showMusicPage();
-}
-
-function showMusicPage() 

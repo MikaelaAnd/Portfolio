@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+header > p {
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+p > a:link {
+    text-decoration: none;
+    color: white;
+}
+
+p > a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+p > a:hover {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.padding {
+    padding: 1rem;
+}
