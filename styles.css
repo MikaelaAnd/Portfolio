@@ -7,8 +7,13 @@ body {
 
 header {
     background-color: black;
+    
     color: white;
-   padding: 1rem;
+    font-size: xx-large;
+}
+
+main {
+    padding-bottom: 2rem;
 }
 
 img {
@@ -17,14 +22,22 @@ img {
     
 }
 
-img:hover {
+.container > img:hover {
     opacity: 50%;
+}
+
+a:hover {
+    opacity: 20%;
 }
 
 footer {
     background-color: rgb(68, 67, 67);
     color: white;
 }
+
+
+
+/* ICONS */
 
 /* PICTURE CLASSES*/
 
