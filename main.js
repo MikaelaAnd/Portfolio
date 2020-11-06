@@ -40,21 +40,19 @@ function addEventListeners() {
 
 function showMikaelaInfo() { 
     const aboutMe = document.getElementById('changeText')
-    aboutMe.innerText = changeText 
+    aboutMe.innerText = changeText.textContent;
     
 }
+ 
+const text = [
+    {
+        description: "My name is blaah blahaah"
+    },
+    {
+        description: "here'äs my travels tjoho"
+    },
+    {
+        description: "this is my fAnCy ArT"
+    }
+]
 
-
-// const newText = document.getElementById('changeText');
-// const aboutMe = document.getElementById('mikaelaInfo')
-// aboutMe.classList.toggle(".hidden")
-
-
-// musicList.onclick = showSpotify;
-// const musicList = document.getElementById('music');
-
-// function showSpotify() {
-//     const spotifyList = document.getElementById('musicList');
-            
-//     changeText.innerHTML = spotifyList;
-// }
