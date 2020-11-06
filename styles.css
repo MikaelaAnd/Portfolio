@@ -21,7 +21,6 @@ header {
     background-color: black;
     
     color: white;
-    font-size: xx-large;
 }
 
 main {
@@ -52,15 +51,18 @@ main > div {
 header p > a:visited {
     text-decoration: none;
     color: white;
+    font-size: xx-large;
 }
 
 header p > a:hover {
     text-decoration: none;
     color: rgb(68, 67, 67);
+    font-size: xx-large;
 }
 header p > a:link {
     text-decoration: none;
     color: white;
+    font-size: xx-large;
 }
 
 img:hover {
@@ -81,15 +83,12 @@ img:hover {
     position: relative;
 }
 
-
-
-
 /* ICONS */
 
 
 /*RE-USABLE CLASSES*/
 .hidden {
-    display: none;
+    visibility: hidden;
 }
 
 .flex {

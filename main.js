@@ -24,31 +24,43 @@
 //         }
 // }// SLIDESHOW
 
-window.onload = main;
+window.addEventListener('load', main);
 
 function main() {
     addEventListeners()
 }
 
 function addEventListeners() {
-    const musicList = document.getElementById('music');
-    const mikaelaInfo = document.getElementById('mikaela')
+    const changeText = document.getElementById('changeText')
+    const aboutMePicture = document.getElementById('mikaela-picture')
     
-    musicList.onclick = showSpotify;
-    mikaelaInfo.onclick = showMikaelaInfo;
-
+    aboutMePicture.addEventListener('click', showMikaelaInfo);
+    
 }
 
-function showSpotify() {
-    const spotifyList = document.getElementById('musicList');
-    const changeText = document.getElementById('changeText');
+
+function showMikaelaInfo() { 
+    const aboutMe = document.getElementById('changeText')
+    aboutMe.innerText = changeText 
     
-    changeText.innerHTML = spotifyList;
 }
 
-function showMikaelaInfo() {
-    const aboutMe = document.getElementById('mikaela');
-    const changeText = document.getElementById('changeText');
-    
-    changeText.innerHTML = aboutMe;
-}
+
+
+
+
+
+
+// const newText = document.getElementById('changeText');
+// const aboutMe = document.getElementById('mikaelaInfo')
+// aboutMe.classList.toggle(".hidden")
+
+
+// musicList.onclick = showSpotify;
+// const musicList = document.getElementById('music');
+
+// function showSpotify() {
+//     const spotifyList = document.getElementById('musicList');
+            
+//     changeText.innerHTML = spotifyList;
+// }
