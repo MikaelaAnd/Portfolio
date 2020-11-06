@@ -46,6 +46,10 @@ main > div {
     flex-wrap: wrap;
 }
 
+.quote {
+    font-size: xx-small;
+}
+
 
 /* LINKS */
 header p > a:visited {
