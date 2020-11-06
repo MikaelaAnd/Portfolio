@@ -41,6 +41,7 @@ function addEventListeners() {
 function showMikaelaInfo() { 
     const aboutMe = document.getElementById('changeText')
     aboutMe.innerText = changeText.textContent;
+    console.log(changeText);
     
 }
  
@@ -49,10 +50,11 @@ const text = [
         description: "My name is blaah blahaah"
     },
     {
-        description: "here'äs my travels tjoho"
+        description: "here's my travels tjoho"
     },
     {
         description: "this is my fAnCy ArT"
     }
 ]
+
 
