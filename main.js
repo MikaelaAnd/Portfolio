@@ -38,17 +38,11 @@ function addEventListeners() {
     
 }
 
-
 function showMikaelaInfo() { 
     const aboutMe = document.getElementById('changeText')
     aboutMe.innerText = changeText 
     
 }
-
-
-
-
-
 
 
 // const newText = document.getElementById('changeText');
