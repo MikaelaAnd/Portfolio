@@ -3,21 +3,52 @@ body {
     background-color: white;
     color: black;
     font-family: 'Courier New', Courier, monospace;
+
+    display: grid;
+    grid-template-columns: 10rem;
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr, 1fr, 1fr));
+    grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "footer footer footer footer"
+
 }
 /* STRUCTURE */
 
 header {
+    grid-area: header;
     background-color: black;
     
     color: white;
     font-size: xx-large;
 }
 
-header p > a:link {
-    text-decoration: none;
+main {
+    grid-area: main;
+    grid-auto-columns: 5rem;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(68, 67, 67);
     color: white;
 }
 
+/* ELEMENTS */
+
+img {
+    width: 20rem;
+    height: auto;
+}
+
+main > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* LINKS */
 header p > a:visited {
     text-decoration: none;
     color: white;
@@ -27,27 +58,16 @@ header p > a:hover {
     text-decoration: none;
     color: rgb(68, 67, 67);
 }
-
-main {
-    padding-bottom: 2rem;
-}
-
-footer {
-    background-color: rgb(68, 67, 67);
+header p > a:link {
+    text-decoration: none;
     color: white;
 }
 
-img {
-    width: 20rem;
-    height: auto;
-}
-/* CLASSES */
-
-
-.container > img:hover {
-    opacity: 50%;
+img:hover {
+    opacity: 20%;
 }
 
+/* PICTURE CLASSES*/
 .overlay-text {
     position: absolute;
     top: 50%;
@@ -61,19 +81,34 @@ img {
     position: relative;
 }
 
-p:hover{
-    opacity: 0%;
-}
-
-a:hover {
-    opacity: 20%;
-}
 
 
 
 /* ICONS */
 
-/* PICTURE CLASSES*/
+
+/*RE-USABLE CLASSES*/
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+.padding {
+    padding: 1rem;
+    padding-left: 1rem;
+}
+
+
 
 /* .slideshow-container {
     position: relative;
@@ -90,19 +125,3 @@ a:hover {
 .slideshow-container .show {
     opacity: 1;
 } */
-/*RE-USABLE CLASSES*/
-.flex {
-    display: flex;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.align-center {
-    align-items: center;
-}
-.padding {
-    padding: 1rem;
-    padding-left: 1rem;
-}

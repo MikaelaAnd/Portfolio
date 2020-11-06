@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikaela A Andersson</title>
     <link rel="stylesheet" href="styles.css">
- 
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </head>
+
 <body>
     <header>
         <p class="flex justify-center padding">
             <a href="index.html">Mikaela A Andersson</a>
         </p>
-        </header>
+    </header>
 
     <main>
-        <div id="clickPictures()" class="flex justify-center relative">
-            <div class="relative">
-                <a href="./music/musicstart.html" target="_blank">
-                    <p class="overlay-text">music</p></a>
-                <img id="musicPicture" class="padding" src="Images/music.jpg">
+        <div id="clickPictures" class="flex justify-center relative">
+            <div id="music" class="relative">
+                <img class="padding" src="Images/music.jpg">
+                <p class="overlay-text">music</p>
             </div>
             <div class="relative">
-                <img id="travelPicture" class="padding" src="Images/travel.jpg">
+                <img class="padding" src="Images/travel.jpg">
                 <a href="travel/travel.html" class="overlay-text">travel</a>
             </div>
-            <div class="flex justify-center">
-                <div class="relative">
-                    <img id="mikaelaPicture" class="padding" src="Images/mikaela.jpg">
-                    <p class="overlay-text">mikaela</p>
+            <div class="relative">
+                <img class="padding" src="Images/mikaela.jpg">
+                <p class="overlay-text">mikaela</p>
             </div>
             <div class="relative">
-                    <img id="artPicture" class="padding" src="Images/art.jpg">
-                    <p class="overlay-text">art</p>
+                <img class="padding" src="Images/art.jpg">
+                <p class="overlay-text">art</p>
             </div>
         </div>
 
+        <div>
+            <p id="changeText">Här ska det bytas ut text</p>
+            <p id="mikaela" class="hidden">Hi, I'm Mikaela, from the cold north in Sweden. I am currently studing to become an Front End Developer. It is really hard I've gotta say. But also fun, I like learning new stuff.</p>
+            <iframe id="music" class="hidden" src="https://open.spotify.com/embed/playlist/73sSxZZofijcNEuVfYN2l4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
     </main>
 
     <footer>
         <div class="icons flex justify-center padding">
             <a href="https://www.instagram.com/kajandersson/" target="_blank">
-            <img src="./icons/instagram-brands.svg" style="width: 2rem;"></a>
+                <img src="./icons/instagram-brands.svg" style="width: 2rem;"></a>
         </div>
     </footer>
-    
 </body>
+
 </html>
