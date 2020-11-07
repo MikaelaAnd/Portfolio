@@ -31,7 +31,6 @@ function main() {
 }
 
 function addEventListeners() {
-    const changeText = document.getElementById('changeText')
     const aboutMePicture = document.getElementById('mikaela-picture')
     
     aboutMePicture.addEventListener('click', showMikaelaInfo);
@@ -39,22 +38,10 @@ function addEventListeners() {
 }
 
 function showMikaelaInfo() { 
-    const aboutMe = document.getElementById('changeText')
-    aboutMe.innerText = changeText.textContent;
-    console.log(changeText);
-    
+    let changeText = document.getElementById('changeText');
+    const mikaelaInfo = document.getElementById('mikaelaInfo');
+    changeText.innerHTML = mikaelaInfo.innerHTML;  
 }
  
-const text = [
-    {
-        description: "My name is blaah blahaah"
-    },
-    {
-        description: "here's my travels tjoho"
-    },
-    {
-        description: "this is my fAnCy ArT"
-    }
-]
 
 
