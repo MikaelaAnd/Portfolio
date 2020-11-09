@@ -4,4 +4,4 @@ Laboration-2
 Working process atm.
 
 
-Click here to see it >> [🙋‍♀️] (https://mikaelaand.github.io/Laboration-2/)
+Click here to see it >> [🙋‍♀️](https://mikaelaand.github.io/Laboration-2/)
