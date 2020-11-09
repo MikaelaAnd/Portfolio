@@ -10,9 +10,7 @@ body {
     grid-template-areas: 
         "header header header header"
         "main main main main"
-        "main main main main"
         "footer footer footer footer"
-
 }
 /* STRUCTURE */
 
@@ -48,6 +46,9 @@ main > div {
     flex-wrap: wrap;
 }
 
+.margin-bottom {
+    margin-bottom: 15rem;
+}
 img {
     width: 20rem;
     height: auto;
