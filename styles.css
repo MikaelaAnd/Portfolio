@@ -86,6 +86,10 @@ img:hover {
     position: relative;
 }
 
+.container {
+    text-align: center;
+}
+
 /*RE-USABLE CLASSES*/
 .display-none {
     display: none;

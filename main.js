@@ -31,14 +31,22 @@ function main() {
 }
 
 function addEventListeners() {
-    const aboutMePicture = document.getElementById('mikaela-picture')
+    let changeText = document.getElementById('changeText');
+    const aboutMePicture = document.getElementById('mikaela-picture');
+    const aboutMusicPicture = document.getElementById('music-picture');
     
+    
+    aboutMusicPicture.addEventListener('click', showMusicInfo);
     aboutMePicture.addEventListener('click', showMikaelaInfo);
     
 }
+function showMusicInfo() {
+    const aboutMusic = document.getElementById('aboutMusic');
+    changeText.innerHTML = aboutMusic.innerHTML;
+}
+
 
 function showMikaelaInfo() { 
-    let changeText = document.getElementById('changeText');
     const aboutMe = document.getElementById('aboutMe');
     changeText.innerHTML = aboutMe.innerHTML;  
 }
