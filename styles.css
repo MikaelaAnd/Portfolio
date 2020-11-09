@@ -113,6 +113,34 @@ main > p:visited {
     opacity: 1;
 } 
 
+/* ICONS */
+
+.icons:hover {
+    opacity: 30%;
+}
+
+.instagram {
+    margin-right: .5rem;
+    margin-top: .2rem;
+    width: 4rem;
+    height: auto;
+}
+
+.github {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-top: .3rem;
+    width: 2rem;
+    height: auto;
+}
+
+.linkedin {
+    margin-left: .8rem;
+    margin-top: .3rem;
+    width: 2.2rem;
+    height: auto;
+}
+
 /*RE-USABLE CLASSES*/
 .display-none {
     display: none;
