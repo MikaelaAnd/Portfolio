@@ -68,6 +68,10 @@ header p > a:link {
     font-size: xx-large;
 }
 
+main > p:visited {
+    text-decoration: none;
+}
+
 
 /* PICTURE CLASSES*/
 .main-pictures img:hover {
@@ -79,7 +83,6 @@ header p > a:link {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
     color: white;
 }
 
@@ -91,6 +94,7 @@ header p > a:link {
     text-align: center;
 }
 /* TRAVEL SLIDESHOW  */
+
 .travel-slideshow {
     position: relative;
     width: 20rem;
