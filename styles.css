@@ -68,11 +68,12 @@ header p > a:link {
     font-size: xx-large;
 }
 
-img:hover {
+
+/* PICTURE CLASSES*/
+.main-pictures img:hover {
     opacity: 20%;
 }
 
-/* PICTURE CLASSES*/
 .overlay-text {
     position: absolute;
     top: 50%;
@@ -89,6 +90,22 @@ img:hover {
 .container {
     text-align: center;
 }
+/* TRAVEL SLIDESHOW  */
+.travel-slideshow {
+    position: relative;
+    width: 20rem;
+    height: auto;
+}
+.travel-slideshow > img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    object-fit: cover;
+    
+}
+.travel-slideshow .show {
+    opacity: 1;
+} 
 
 /*RE-USABLE CLASSES*/
 .display-none {
@@ -111,20 +128,3 @@ img:hover {
     padding-left: 1rem;
 }
 
-
-
-/* .slideshow-container {
-    position: relative;
-    width: 20rem;
-    height: auto;
-}
-.slideshow-container > img {
-    position: absolute;
-    opacity: 0;
-    transition: opacity 1s;
-    object-fit: cover;
-    
-}
-.slideshow-container .show {
-    opacity: 1;
-} */
