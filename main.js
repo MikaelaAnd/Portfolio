@@ -39,8 +39,8 @@ function addEventListeners() {
 
 function showMikaelaInfo() { 
     let changeText = document.getElementById('changeText');
-    const mikaelaInfo = document.getElementById('mikaelaInfo');
-    changeText.innerHTML = mikaelaInfo.innerHTML;  
+    const aboutMe = document.getElementById('aboutMe');
+    changeText.innerHTML = aboutMe.innerHTML;  
 }
  
 

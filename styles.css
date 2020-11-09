@@ -25,7 +25,7 @@ header {
 
 main {
     grid-area: main;
-    grid-auto-columns: 5rem;
+    grid-auto-columns: 2rem;
 }
 
 footer {
@@ -86,12 +86,9 @@ img:hover {
     position: relative;
 }
 
-/* ICONS */
-
-
 /*RE-USABLE CLASSES*/
-.hidden {
-    visibility: hidden;
+.display-none {
+    display: none;
 }
 
 .flex {
