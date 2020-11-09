@@ -19,7 +19,6 @@ body {
 header {
     grid-area: header;
     background-color: black;
-    
     color: white;
 }
 
@@ -36,9 +35,12 @@ footer {
 
 /* ELEMENTS */
 
-img {
-    width: 20rem;
-    height: auto;
+header > h1 {
+    font-weight: lighter;
+}
+
+.quote {
+    font-size: xx-small;
 }
 
 main > div {
@@ -46,23 +48,24 @@ main > div {
     flex-wrap: wrap;
 }
 
-.quote {
-    font-size: xx-small;
+img {
+    width: 20rem;
+    height: auto;
 }
 
 /* LINKS */
-header p > a:visited {
+header h1 > a:visited {
     text-decoration: none;
     color: white;
     font-size: xx-large;
 }
 
-header p > a:hover {
+header h1 > a:hover {
     text-decoration: none;
     color: rgb(68, 67, 67);
     font-size: xx-large;
 }
-header p > a:link {
+header h1 > a:link {
     text-decoration: none;
     color: white;
     font-size: xx-large;
@@ -71,7 +74,6 @@ header p > a:link {
 main > p:visited {
     text-decoration: none;
 }
-
 
 /* PICTURE CLASSES*/
 .main-pictures img:hover {
@@ -93,6 +95,7 @@ main > p:visited {
 .container {
     text-align: center;
 }
+
 /* TRAVEL SLIDESHOW  */
 
 .travel-slideshow {
@@ -120,7 +123,7 @@ main > p:visited {
 }
 
 .instagram {
-    margin-right: .5rem;
+    margin-right: .3rem;
     margin-top: .2rem;
     width: 4rem;
     height: auto;
@@ -135,7 +138,7 @@ main > p:visited {
 }
 
 .linkedin {
-    margin-left: .8rem;
+    margin-left: 1rem;
     margin-top: .3rem;
     width: 2.2rem;
     height: auto;
