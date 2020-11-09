@@ -35,11 +35,13 @@ function addEventListeners() {
     const aboutMusicPicture = document.getElementById('music-picture');
     const aboutTravelPicture = document.getElementById('travel-picture');
     const aboutMePicture = document.getElementById('mikaela-picture');
+    const aboutArtPicture = document.getElementById('art-picture');
     
     
     aboutMusicPicture.addEventListener('click', showMusicInfo);
     aboutTravelPicture.addEventListener('click', startSlideShowAnimation);
     aboutMePicture.addEventListener('click', showMikaelaInfo);
+    aboutArtPicture.addEventListener('click', showArtPictures)
     
 }
 function showMusicInfo() {
@@ -53,6 +55,11 @@ function showMikaelaInfo() {
     changeText.innerHTML = aboutMe.innerHTML;  
 }
 
+function showArtPictures() {
+    const aboutArt = document.getElementById('aboutArt');
+    changeText.innerHTML = aboutArt.innerHTML;
+}
+
 function startSlideShowAnimation() {
     const aboutTravel = document.getElementById('aboutTravel');
     changeText.innerHTML = aboutTravel.innerHTML;
@@ -61,17 +68,17 @@ function startSlideShowAnimation() {
 
     }
 
-function changeActiveImage() {
-    const images = document.querySelectorAll('.travel-slideshow > img');
+// function changeActiveImage() {
+//     const images = document.querySelectorAll('.travel-slideshow > img');
         
-        for(let i = 0; i < images.length; i++) {
-            if (images[i].classList.contains('show')) {
-                     images[i].classList.remove('show');
+//         for(let i = 0; i < images.length; i++) {
+//             if (images[i].classList.contains('show')) {
+//                      images[i].classList.remove('show');
         
-                    let nextIndex = (i + 1) % images.length;
+//                     let nextIndex = (i + 1) % images.length;
         
-                    images[nextIndex].classList.add('show');
-                     break;
-            }
-        }
-}
+//                     images[nextIndex].classList.add('show');
+//                      break;
+//             }
+//         }
+// }
