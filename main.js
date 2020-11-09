@@ -41,7 +41,7 @@ function addEventListeners() {
     aboutMusicPicture.addEventListener('click', showMusicInfo);
     aboutTravelPicture.addEventListener('click', startSlideShowAnimation);
     aboutMePicture.addEventListener('click', showMikaelaInfo);
-    aboutArtPicture.addEventListener('click', showArtPictures)
+    aboutArtPicture.addEventListener('click', showArtPictures);
     
 }
 function showMusicInfo() {
@@ -55,18 +55,20 @@ function showMikaelaInfo() {
     changeText.innerHTML = aboutMe.innerHTML;  
 }
 
-function showArtPictures() {
-    const aboutArt = document.getElementById('aboutArt');
-    changeText.innerHTML = aboutArt.innerHTML;
-}
 
 function startSlideShowAnimation() {
     const aboutTravel = document.getElementById('aboutTravel');
     changeText.innerHTML = aboutTravel.innerHTML;
     setInterval(changeActiveImage, 2000);
     changeActiveImage();
+    
+}
 
-    }
+function showArtPictures() {
+    const aboutArt = document.getElementById('aboutArt');
+    changeText.innerHTML = aboutArt.innerHTML;
+}
+
 
 // function changeActiveImage() {
 //     const images = document.querySelectorAll('.travel-slideshow > img');
