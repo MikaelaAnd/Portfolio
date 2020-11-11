@@ -6,8 +6,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 
     display: grid;
-    grid-template-columns: 10rem;
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr, 1fr, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(1fr, 1fr, 1fr, 1fr));
     grid-template-areas: 
         "header header header header"
         "main main main main"
@@ -23,7 +22,7 @@ header {
 
 main {
     grid-area: main;
-    grid-auto-columns: 2rem;
+    grid-auto-rows: 2rem;
     margin-bottom: 5rem;
 }
 
@@ -145,4 +144,43 @@ main > p:visited {
 
 .padding {
     padding: 1rem;
+}
+
+/* BUTTONS */
+
+main > ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul > li {
+    display: block;
+    list-style: none;
+}
+
+button.prev {
+    position: absolute;
+    left: 0;
+    top: 30rem;
+}
+
+button.next {
+    position: absolute;
+    right: 0;
+    top: 30rem;
+}
+
+button.prev, button.next {
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    opacity: 80%;
+    width: 44px;
+    height: 44px;
 }
