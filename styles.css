@@ -12,6 +12,7 @@ body {
         "main main main main"
         "footer footer footer footer"
 }
+
 /* STRUCTURE */
 
 header {
@@ -148,13 +149,14 @@ main > p:visited {
 
 /* BUTTONS */
 
-main > ul {
+.slideshow-art > ul {
+    display: flex;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-ul > li {
+.slideshow-art > li {
     display: block;
     list-style: none;
 }
