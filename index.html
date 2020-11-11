@@ -21,7 +21,7 @@
     </header>
 
     <main>
-        <div id="clickPictures" class="flex justify-center relative main-pictures">
+        <div class="flex justify-center relative main-pictures">
             <div id="music-picture" class="relative">
                 <img class="padding" src="Images/music.jpg">
                 <p class="overlay-text">music</p>
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <div class="flex justify-center container margin-bottom">
+        <div class="flex justify-center container">
             <p id="changeText"></p>
             <p id="aboutMusic" class="display-none">This is my current Spotify-playlist.<br> I listen to music
                 around 80.000<br> minutes per year and it is the quickest<br> way of getting my head in the right
@@ -53,33 +53,35 @@
                 work, but I like to learn new<br> things so hopefully I will learn this too.<br>
                 <img class="padding" src="./Images/selfportrait.jpeg"><img class="padding" src="./Images/resume.png">
             </p>
-            <div id="aboutArt" class="display-none slideshow-art">
+            <div id="aboutArt" class="display-none">
                 <p>This is my so called art. I've been taking photographs<br>
                     since I was bout 10 or 11. I love it.
                 </p>
                 <button class="prev" onclick="show(-1)">&lt;</button>
                 <button class="next" onclick="show(+1)">&gt;</button>
                 <!--ART PICTURES-->
-                <ul>
-                    <li><img src="./Images/art-folder/img1.jpg"></li>
-                    <li><img src="./Images/art-folder/img2.jpg"></li>
-                    <li><img src="./Images/art-folder/img3.jpeg"></li>
-                    <li><img src="./Images/art-folder/img4.jpeg"></li>
-                    <li><img src="./Images/art-folder/img5.jpeg"></li>
-                    <li><img src="./Images/art-folder/img6.jpeg"></li>
-                    <li><img src="./Images/art-folder/img7.jpg"></li>
-                    <li><img src="./Images/art-folder/img8.jpeg"></li>
-                    <li><img src="./Images/art-folder/img9.jpeg"></li>
-                    <li><img src="./Images/art-folder/img10.jpeg"></li>
-                    <li><img src="./Images/art-folder/img11.jpeg"></li>
-                    <li><img src="./Images/art-folder/img12.jpeg"></li>
-                    <li><img src="./Images/art-folder/img13.jpg"></li>
-                    <li><img src="./Images/art-folder/img14.jpeg"></li>
-                    <li><img src="./Images/art-folder/img15.jpeg"></li>
-                    <li><img src="./Images/art-folder/img16.jpg"></li>
-                    <li><img src="./Images/art-folder/img17.jpeg"></li>
-                    <li><img src="./Images/art-folder/img18.jpg"></li>
-                </ul>
+                <div class="slideshow-art">
+                    <ul>
+                        <li><img src="./Images/art-folder/img1.jpg"></li>
+                        <li><img src="./Images/art-folder/img2.jpg"></li>
+                        <li><img src="./Images/art-folder/img3.jpeg"></li>
+                        <li><img src="./Images/art-folder/img4.jpeg"></li>
+                        <li><img src="./Images/art-folder/img5.jpeg"></li>
+                        <li><img src="./Images/art-folder/img6.jpeg"></li>
+                        <li><img src="./Images/art-folder/img7.jpg"></li>
+                        <li><img src="./Images/art-folder/img8.jpeg"></li>
+                        <li><img src="./Images/art-folder/img9.jpeg"></li>
+                        <li><img src="./Images/art-folder/img10.jpeg"></li>
+                        <li><img src="./Images/art-folder/img11.jpeg"></li>
+                        <li><img src="./Images/art-folder/img12.jpeg"></li>
+                        <li><img src="./Images/art-folder/img13.jpg"></li>
+                        <li><img src="./Images/art-folder/img14.jpeg"></li>
+                        <li><img src="./Images/art-folder/img15.jpeg"></li>
+                        <li><img src="./Images/art-folder/img16.jpg"></li>
+                        <li><img src="./Images/art-folder/img17.jpeg"></li>
+                        <li><img src="./Images/art-folder/img18.jpg"></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!--TRAVEL PICTURES-->
