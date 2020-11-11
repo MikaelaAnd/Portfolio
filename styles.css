@@ -4,7 +4,6 @@ body {
     background-color: white;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-
     display: grid;
     grid-template-rows: repeat(auto-fill, minmax(1fr, 1fr, 1fr, 1fr));
     grid-template-areas: 
@@ -23,9 +22,7 @@ header {
 
 main {
     grid-area: main;
-    grid-auto-rows: 2rem;
     margin-bottom: 5rem;
-    overflow: hidden;
 }
 
 footer {
@@ -146,44 +143,4 @@ main > p:visited {
 
 .padding {
     padding: 1rem;
-}
-
-/* BUTTONS */
-
-.slideshow-art > ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.slideshow-art > li {
-    display: block;
-    list-style: none;
-}
-
-button.prev {
-    position: absolute;
-    left: 0;
-    top: 30rem;
-}
-
-button.next {
-    position: absolute;
-    right: 0;
-    top: 30rem;
-}
-
-button.prev, button.next {
-    display: flex;
-    font-size: 32px;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    background-color: black;
-    border-radius: 50%;
-    border: none;
-    opacity: 80%;
-    width: 44px;
-    height: 44px;
 }
