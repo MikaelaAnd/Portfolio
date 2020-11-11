@@ -1,7 +1,9 @@
 
 window.addEventListener('load', main);
 
-
+/**
+ * Start of the page
+ */
 function main() {
     addEventListeners();
 }
