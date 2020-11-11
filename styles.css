@@ -24,10 +24,16 @@ header {
 main {
     grid-area: main;
     grid-auto-columns: 2rem;
+    margin-bottom: 5rem;
 }
 
 footer {
     grid-area: footer;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     background-color: rgb(68, 67, 67);
     color: white;
 }
@@ -47,9 +53,9 @@ main > div {
     flex-wrap: wrap;
 }
 
-.margin-bottom {
+/* .margin-bottom {
     margin-bottom: 15rem;
-}
+} */
 
 img {
     width: 20rem;
