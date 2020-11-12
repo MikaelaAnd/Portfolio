@@ -20,7 +20,7 @@ function addEventListeners() {
     
     
     aboutMusicPicture.addEventListener('click', showMusicInfo);
-    aboutTravelPicture.addEventListener('click', startSlideShowAnimation);
+    aboutTravelPicture.addEventListener('click', showTravelInfo);
     aboutMePicture.addEventListener('click', showMikaelaInfo);
     aboutArtPicture.addEventListener('click', showArtPictures);
     
@@ -40,7 +40,7 @@ function showMikaelaInfo() {
     changeText.innerHTML = aboutMe.innerHTML;  
 }
 
-function startSlideShowAnimation() {
+function showTravelInfo() {
     const aboutTravel = document.getElementById('aboutTravel');
     changeText.innerHTML = aboutTravel.innerHTML;  
 }
