@@ -10,7 +10,7 @@ function plusSlides(n, no) {
 
 function showSlides(n, no) {
     let i;
-    let x = document.getElementsByClassName(slideId[no]);
+    let x = document.querySelectorAll('#changeText .' + slideId[no]);
     if (n > x.length) { slideIndex[no] = 1 }
     if (n < 1) { slideIndex[no] = x.length }
     for (i = 0; i < x.length; i++) {
