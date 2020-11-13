@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./slideshow.css">
     <script defer src="main.js"></script>
-    <script defer src="slideshow.js"></script>
+    <script defer src="slideshow-art.js"></script>
+    <script defer src="slideshow-travel.js"></script>
 </head>
 
 <body>
@@ -45,7 +46,7 @@
         <div class="flex justify-center container">
             <p id="changeText" class="change-text"></p>
             <div id="aboutMusic" class="display-none">
-                <p id="aboutMusic" class="display-none">This is my current Spotify-playlist.<br> I listen to music
+                <p>This is my current Spotify-playlist.<br> I listen to music
                     around 80.000<br> minutes per year and it is the quickest<br> way of getting my head in the right
                     space.<br><iframe class="padding"
                         src="https://open.spotify.com/embed/playlist/73sSxZZofijcNEuVfYN2l4" width="300" height="380"
@@ -67,7 +68,7 @@
                     since I was bout 10 or 11. I love it.<br></p>
 
                 <!--ART PICTURES-->
-                <div class="slideshow-container">
+                <div class="slideshow-container-art">
                     <div class="slide-pics fade"><img src="./Images/art-folder/img1.jpg"></div>
                     <div class="slide-pics fade"><img src="./Images/art-folder/img3.jpeg"></div>
                     <div class="slide-pics fade"><img src="./Images/art-folder/img4.jpeg"></div>
@@ -87,35 +88,34 @@
                 </div>
             </div>
             <div id="aboutTravel" class="display-none">
-                <p>I went to Vietnam once in 2018 for a month. It was incredible and exhausting.<br> But a real
-                    privilage to
-                    be able to travel like this.<br></p>
+                <p>Travel is a privilege and I am so thankful for the travels I have been<br>able to go on. These
+                    pictures are from<br> Vietnam, England and Prague.<br></p>
                 <!--TRAVEL PICTURES-->
-                <img src="./Images/travel-folder/vietnam/img1.jpeg">
-                <img src="./Images/travel-folder/vietnam/img2.jpeg">
-                <img src="./Images/travel-folder/vietnam/img3.jpeg">
-                <img src="./Images/travel-folder/vietnam/img4.jpeg">
-                <img src="./Images/travel-folder/vietnam/img5.jpeg">
-                <img src="./Images/travel-folder/vietnam/img6.jpeg">
-                <img src="./Images/travel-folder/vietnam/img7.jpeg">
-                <img src="./Images/travel-folder/vietnam/img8.jpeg">
-                <p>England 2017-2019. Got more photos but they are currently on my other computer, tbc.</p><br>
-                <img src="./Images/travel-folder/london/img1.jpeg">
-                <img src="./Images/travel-folder/london/img2.jpeg">
-                <img src="./Images/travel-folder/london/img3.jpeg">
-                <img src="./Images/travel-folder/london/img4.jpeg">
-                <p>Prague 2020. Right before Covid-19 hit Europe hard,<br> I went on a trip to Prauge with some
-                    friends.<br>
-                    Planning to go there agian, it was amazing.<br></p>
-                <img src="./Images/travel-folder/prauge/img1.jpeg">
-                <img src="./Images/travel-folder/prauge/img2.jpeg">
-                <img src="./Images/travel-folder/prauge/img3.jpeg">
-                <img src="./Images/travel-folder/prauge/img4.jpeg">
-                <img src="./Images/travel-folder/prauge/img7.jpeg">
-                <img src="./Images/travel-folder/prauge/img5.jpeg">
-                <img src="./Images/travel-folder/prauge/img6.jpeg">
-                <img src="./Images/travel-folder/prauge/img8.jpg">
+                <div class=" slideshow-container-travel">
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/vietnam/img1.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/vietnam/img2.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/vietnam/img3.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/vietnam/img4.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/vietnam/img5.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/vietnam/img6.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/vietnam/img7.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/vietnam/img8.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/london/img1.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/london/img3.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/london/img4.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/prauge/img1.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/prauge/img2.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/prauge/img3.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/prauge/img4.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/prauge/img7.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/prauge/img5.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/prauge/img6.jpeg"></div>
+                    <div class="slide-pics fade"><img src="./Images/travel-folder/prauge/img8.jpg"></div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <a class="next" onclick="plusSlides(+1)">&#10095</a>
+                </div>
             </div>
+        </div>
     </main>
 
     <footer class="flex justify-center">
