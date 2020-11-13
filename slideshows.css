@@ -1,3 +1,5 @@
+/* PICTURES */
+
 .slideshow-container {
     position: relative;
 }
@@ -5,9 +7,8 @@
 .slide-pics1, .slide-pics2 {
     display: none;
 }
-img {
-    vertical-align: middle;
-}
+
+/* BUTTONS */
 
 .prev, .next {
     cursor: pointer;
@@ -37,12 +38,15 @@ img {
     opacity: 30%;
 }
 
+/* ANIMATIONS */
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
 
 @-webkit-keyframes fade {
     from {opacity: .4}

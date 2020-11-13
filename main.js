@@ -40,6 +40,9 @@ function showMikaelaInfo() {
     changeText.innerHTML = aboutMe.innerHTML;
 }
 
+/**
+ * Connecting to the other javascript-file with showSlides.
+ */
 function showTravelInfo() {
     const aboutTravel = document.getElementById('aboutTravel');
     changeText.innerHTML = aboutTravel.innerHTML;
