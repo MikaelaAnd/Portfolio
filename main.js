@@ -43,11 +43,13 @@ function showMikaelaInfo() {
 function showTravelInfo() {
     const aboutTravel = document.getElementById('aboutTravel');
     changeText.innerHTML = aboutTravel.innerHTML;
+    showSlides(1, 1);
 }
 
 function showArtPictures() {
     const aboutArt = document.getElementById('aboutArt');
     changeText.innerHTML = aboutArt.innerHTML
+    showSlides(1, 0);
 }
 
 
