@@ -1,9 +1,12 @@
-.slideshow-container-art, .slideshow-container-travel {
+.slideshow-container {
     position: relative;
 }
 
-.slide-pics {
+.slide-pics1, .slide-pics2 {
     display: none;
+}
+img {
+    vertical-align: middle;
 }
 
 .prev, .next {
@@ -18,7 +21,6 @@
     font-size: 18px;
     transition: .6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
 }
 
 .next {
