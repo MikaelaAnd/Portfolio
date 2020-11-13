@@ -17,13 +17,13 @@ function addEventListeners() {
     const aboutTravelPicture = document.getElementById('travel-picture');
     const aboutMePicture = document.getElementById('mikaela-picture');
     const aboutArtPicture = document.getElementById('art-picture');
-    
-    
+
+
     aboutMusicPicture.addEventListener('click', showMusicInfo);
     aboutTravelPicture.addEventListener('click', showTravelInfo);
     aboutMePicture.addEventListener('click', showMikaelaInfo);
     aboutArtPicture.addEventListener('click', showArtPictures);
-    
+
 }
 
 /**
@@ -35,17 +35,20 @@ function showMusicInfo() {
     changeText.innerHTML = aboutMusic.innerHTML;
 }
 
-function showMikaelaInfo() { 
+function showMikaelaInfo() {
     const aboutMe = document.getElementById('aboutMe');
-    changeText.innerHTML = aboutMe.innerHTML;  
+    changeText.innerHTML = aboutMe.innerHTML;
 }
 
 function showTravelInfo() {
     const aboutTravel = document.getElementById('aboutTravel');
-    changeText.innerHTML = aboutTravel.innerHTML;  
+    changeText.innerHTML = aboutTravel.innerHTML;
 }
 
 function showArtPictures() {
     const aboutArt = document.getElementById('aboutArt');
-    changeText.innerHTML = aboutArt.innerHTML;
+    changeText.innerHTML = aboutArt.innerHTML
 }
+
+
+
