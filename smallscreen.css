@@ -1,9 +1,9 @@
 @media (max-width: 351px) {
+    
     body {
         background: red;
         display: flex;
         flex-wrap: wrap;
-        
     }
 
     img {
