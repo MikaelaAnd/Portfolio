@@ -1,22 +1,23 @@
 /**
- * Picked out the pictures from HTML
+ * Get out the pictures from HTML
  */
 let slideIndex = [1, 1];
 let slideId = ["slide-pics1", "slide-pics2"]
 
+
 /**
- * 
- * @param {0} n 
- * @param {1} no 
+ * These two functions are making the two slideshow's change picture
+ * @param {number} n 
+ * @param {number} no
  */
 function plusSlides(n, no) {
     showSlides(slideIndex[no] += n, no);
+
 }
 
-/**
- * 
- * @param {0} n 
- * @param {1} no 
+/** 
+ * @param {number} n 
+ * @param {number} no 
  */
 function showSlides(n, no) {
     let i;
