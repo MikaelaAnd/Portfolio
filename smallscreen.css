@@ -1,22 +1,13 @@
+/* SMALL SCREEN */
+
 @media (max-width: 351px) {
     
-    body {
-        background: red;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     img {
         max-width: 10rem;
     }
 
     iframe {
         max-width: 10rem;
-    }
-    
-    .main-pictures {
-        width: 100%;
-        height: auto;
     }
 }
 

@@ -6,7 +6,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     
     display: grid;
-    grid-template-rows: repeat(auto-fill, minmax(1fr, 1fr, 1fr, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(1fr));
     grid-template-areas: 
     "header header header header"
     "main main main main"
@@ -71,11 +71,6 @@ main > div {
     flex-wrap: wrap;
 }
 
-img {
-    width: 20rem;
-    height: auto;
-}
-
 main > p:visited {
     text-decoration: none;
 }
@@ -132,7 +127,8 @@ main > p:visited {
     height: auto;
 }
 
-/*RE-USABLE CLASSES*/
+
+/* RE-USABLE CLASSES */
 
 .display-none {
     display: none;
