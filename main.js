@@ -13,12 +13,12 @@ let changeText = document.getElementById('changeText');
 function addEventListeners() {
     const aboutMusicPicture = document.getElementById('music-picture');
     const aboutTravelPicture = document.getElementById('travel-picture');
-    const aboutMePicture = document.getElementById('mikaela-picture');
+    const aboutMyWorkPicture = document.getElementById('resume-picture');
     const aboutArtPicture = document.getElementById('art-picture');
 
     aboutMusicPicture.addEventListener('click', showMusicInfo);
     aboutTravelPicture.addEventListener('click', showTravelInfo);
-    aboutMePicture.addEventListener('click', showMikaelaInfo);
+    aboutMyWorkPicture.addEventListener('click', showWorkInfo);
     aboutArtPicture.addEventListener('click', showArtPictures);
 }
 
@@ -29,9 +29,9 @@ function showMusicInfo() {
     changeText.innerHTML = aboutMusic.innerHTML;
 }
 
-function showMikaelaInfo() {
-    const aboutMe = document.getElementById('aboutMe');
-    changeText.innerHTML = aboutMe.innerHTML;
+function showWorkInfo() {
+    const aboutMyWork = document.getElementById('aboutMyWork');
+    changeText.innerHTML = aboutMyWork.innerHTML;
 }
 
 /** Connecting to the other javascript-file with showSlides. */

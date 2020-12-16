@@ -99,6 +99,16 @@ main > p:visited {
     padding-bottom: 1rem;    
 }
 
+.work-photos > img {
+    width: 20rem;
+    height: auto;
+ 
+}
+
+.github-photo {
+    flex-direction: column;
+}
+
 /* FOOTER */
 
 .icons:hover {
