@@ -1,9 +1,9 @@
 /* SMALL SCREEN */
 
-@media (max-width: 351px) {
+@media (max-width: 420px) {
     
     img {
-        max-width: 10rem;
+        max-width: 8rem;
         max-height: auto;
     }
 
